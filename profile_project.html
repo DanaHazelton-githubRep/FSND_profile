@@ -6,25 +6,26 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>FSWD Profile Project</title>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
+      <header class="row">
         <div class="col-md-6">
           <div><img class="title-logo" src="./profile_images/angry_otto.jpg" alt="Angry Otto" data-toggle="modal" data-target="#project2"></div>
         </div>
         <div class="col-md-6 text-right text-uppercase" >
-          <h1 class="title-super" class="text-thin">Dana Hazelton</h1>
+          <h1 class="title-super">Dana Hazelton</h1>
           <h3>Front-end Master</h3>
         </div>
-      <div>
-      <div class="row">
+      </header>
+      <nav class="row">
           <div class="col-md-12">
             <hr class="hr-title">
           </div>
-      </div>
+      </nav>
       <div class="row">
         <div class="col-md-12">
           <img class="img-responsive" src="./profile_images/PBR_truck.jpg" alt="PBR_TRUCK" data-toggle="modal" data-target="#project1">
@@ -35,24 +36,23 @@
           <h2 class="text-muted">featured work</h2>
         </div>
       </div>
-      <div class="row">
+      <section class="row">
         <div class="col-md-4 text-center">
-          <img class="img-responsive feat_work_img" src="./profile_images/partybarge_media.jpg" alt="Movie Project" >
+          <img class="img-responsive feat-work-img" src="./profile_images/partybarge_media.jpg" alt="Movie Project" >
           <h3>PARTYBARGE MEDIA CENTER</h3>
           <p><a href="https://github.com/Partybarge02/movie_webpage.git/" target="blank">Partybarge Media Movie Website</a></p>
         </div>
         <div class="col-md-4 text-center">
-          <img class="img-responsive feat_work_img" src="./profile_images/555x300" alt="feat pic">
+          <img class="img-responsive feat-work-img" src="./profile_images/555x300" alt="feat pic">
           <h3>Appify</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-4 text-center">
-          <img class="img-responsive feat_work_img" src="./profile_images/555x300" alt="feat pic">
+          <img class="img-responsive feat-work-img" src="./profile_images/555x300" alt="feat pic">
           <h3>Appify</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
-      </div>
-    </div>
+      </section>
     <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -61,7 +61,7 @@
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/555.jpeg">
+                    <img class="img-responsive" src="images/555.jpeg" alt="thumb">
                     This was my first project in this class. I learned a lot about HTML and CSS.
                 </div>
                 <div class="modal-footer">
@@ -73,18 +73,19 @@
     <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
+              <div class="modal-header">
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                </div>
-                <div class="modal-body">
+              </div>
+              <div class="modal-body">
                     <img class="title-logo" src="./profile_images/100x100" alt="Udacity logo" >
                     This is my 2nd Modal in this class. I learned a lot about HTML and CSS.
-                </div>
-                <div class="modal-footer">
+              </div>
+              <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
         </div>
+    </div>
     </div>
   </body>
 </html>
