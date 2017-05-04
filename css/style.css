@@ -53,3 +53,7 @@ nav a, button {
     height: auto;
 }
 
+.href-a {
+    color: black;
+    padding: 1.5em
+}
